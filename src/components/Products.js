@@ -1,9 +1,8 @@
-import React, { useState } from "react";
+import React from "react";
 
 import CardList from "./CardList";
 
 const Products = ({ products }) => {
-  const [value, setValue] = useState("Select");
 
  
 

@@ -3,7 +3,7 @@ import React from 'react'
 const Card = ({data}) => {
     return (
         <div className="card" >
-            <img src={data.links.mission_patch} className="card-image" alt="product" title={data.title} />
+            <img  className="card-image" alt="product" title={data.title} />
             <h3 className="card-title">{data.mission_name}</h3>
             <h5 className="card-title">mission id:{data.mission_name}</h5>
             <h5 className="card-title">launch-year:{data.launch_year}</h5>
